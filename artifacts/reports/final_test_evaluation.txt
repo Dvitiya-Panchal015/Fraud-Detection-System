@@ -1,0 +1,28 @@
+
+FINAL FRAUD DETECTION TEST EVALUATION
+=====================================
+Selected threshold: 0.9000
+Test transactions: 954393
+Actual fraud transactions: 1232
+
+Precision: 0.0954
+Recall: 0.7971
+F1-score: 0.1704
+Average Precision (PR-AUC): 0.5469
+ROC-AUC: 0.9908
+
+Confusion Matrix:
+                  Predicted Legitimate  Predicted Fraud
+Actual Legitimate 943848                 9313
+Actual Fraud      250                 982
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99    953161
+           1       0.10      0.80      0.17      1232
+
+    accuracy                           0.99    954393
+   macro avg       0.55      0.89      0.58    954393
+weighted avg       1.00      0.99      0.99    954393
+

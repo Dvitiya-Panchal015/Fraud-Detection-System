@@ -1,0 +1,23 @@
+VALIDATION METRICS
+==================
+validation_precision: 0.0235
+validation_recall: 0.9594
+validation_f1: 0.0459
+validation_average_precision: 0.5632
+validation_roc_auc: 0.9912
+
+CLASSIFICATION REPORT
+=====================
+              precision    recall  f1-score   support
+
+  Legitimate       1.00      0.95      0.97    953161
+       Fraud       0.02      0.96      0.05      1232
+
+    accuracy                           0.95    954393
+   macro avg       0.51      0.95      0.51    954393
+weighted avg       1.00      0.95      0.97    954393
+
+CONFUSION MATRIX
+================
+[[904089  49072]
+ [    50   1182]]
